@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_4</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <form>
+            <label for="lastname">Nom : </label><input type="text" name="lastname" id="lastname"/>
+            <label for="firstname">Prénom : </label><input type="text" name="firstname" id="firstname"/>
+            <label for="city">Ville : </label><input type="text" name="city" id="city"/>
+            <button  name="submit" id="submit" onclick="formulaire()">Valider</button>
+        </form>
+        <script>
+          function formulaire(){
+          alert("Nom : " + lastname.value + "\n" + "Prénom : " + firstname.value  + "\n" + "Ville : " + city.value );
+        }
+        </script>
+    </body>
+</html>
